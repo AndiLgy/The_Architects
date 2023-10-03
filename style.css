@@ -1,0 +1,287 @@
+*{
+    background-color: black;
+}
+
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    flex-shrink: 1;
+
+}
+.item1{
+    align-self: flex-start;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.title{
+    font-family: 'Monoton', cursive;
+    font-size: 70px;
+    color: white;
+}
+
+#pic{
+    width: 100%;
+    height: 500px;
+    
+}
+.motto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: left;
+    width: 55%;
+
+}
+.container-one{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+.example{
+    width: 600px;
+    height: 300px;
+}
+.description{
+    font-size: 20px;
+}
+span{
+    color: grey;
+}
+
+.container-two{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    justify-content: center;
+}
+h4{
+    color: #FFD384;
+    font-size: 30px;
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+}
+.demo{
+    width: 400px;
+    height: 200px;
+}
+.container-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-left: 30px;
+    
+
+}
+.item-three{
+    flex: 0 32%;
+  margin-bottom: 2%;
+  
+}
+
+h5{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    font-size: 27px;
+}
+
+.final{
+    background-color: #FFD384;
+}
+
+.container-end{
+    display: flex;
+    position: relative;
+    text-align: center;
+   
+}
+.end{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: transparent;
+}
+.end-second{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: transparent;
+}
+
+.last{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: transparent;
+    color: black;
+}
+
+
+.titleend{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Monoton', cursive;
+    font-size: 70px;
+    color: white;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.prime{
+    height: 500px;
+}
+
+.words{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: end;
+    font-style: italic;
+}
+
+a{
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+#end{
+    width: 1800px;
+    height: 600px;
+
+}
+.demo-photo{
+    height:400px;
+    width: 320px;
+
+}
+.studio{
+    font-size: 42px;
+}
+
+.container-design{
+    flex-direction: column;
+    display: flex;
+    padding-left: 250px;
+}  
+
+.example0{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+iframe{
+    height:350px;
+    width: 620px;
+
+
+}
+
+@media(max-width:680px){
+    .title{ font-size: 45px;
+
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .motto{
+        font-size: 30px;
+        border-left: 30px;
+    }
+    .example{
+        width: 400px;
+        height: 200px;
+    }
+    .container-one{
+        position: block;
+    }
+    .container-two{
+        position: block;
+    }
+    .subtitle{
+        font-size: 25px;
+
+    }
+    .description{
+        
+    }
+    .titleend{
+        font-size: 20px;
+    }
+    .last , .endsecond{
+        font-size: 15px;
+    }
+    .words{
+        font-size: 25px;
+    }
+    .demo{
+        width: 400px;
+        height: 200px;
+    }
+    .item-three{
+        justify-content: center;
+    }
+    .container-three{
+        flex-direction: column;
+        
+    }
+    .container-one{
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    
+    .container-two{
+        display: block;
+    }
+    #pic{
+        width: 600px;
+        height: 300px;
+    }
+    #end{
+        width: 600px;
+        height: 300px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .example0{
+        width: 400px;
+        height: 220px;
+        text-align: center;
+    }
+    .container-design{
+        flex-direction: column;
+        padding-left: 0%;
+        
+    }  
+    #designmotto{
+        font-size: 40px;
+    }
+    iframe{
+        height:200px;
+        width: 420px;
+    
+
+    }
+    h5{
+        font-size: 18px;
+        
+    }
+    .demo-photo{
+
+        height:280px;
+        width: 220px;
+    
+
+    }
